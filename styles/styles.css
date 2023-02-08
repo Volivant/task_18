@@ -247,6 +247,12 @@ body * {
     border-radius: 30px;
 }
 
+.control-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .control-paragraph {
     display: flex;
     margin-top: 35px;
@@ -260,6 +266,7 @@ body * {
     font-size: 18px;
     line-height: 37px;
     text-align:center;
+    width: 681px;
 }
 
 .control-form {
@@ -613,6 +620,9 @@ body * {
 }
 
 .clients-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 110px 101px 0 101px;
 }
 

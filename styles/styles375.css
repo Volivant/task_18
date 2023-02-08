@@ -67,6 +67,7 @@
     font-size: 11px;
     line-height: 17px;
     text-align: center;
+    width: 340px;
 }
 
 .projects-images {
@@ -128,8 +129,12 @@
     height: 74px;
 }
 
+.line {
+    margin: 10px 0;
+}
+
 .line-hr {
-    margin-top: -100px;
+    margin-top: 60px;
 }
 
 .control-container {
@@ -138,7 +143,7 @@
 }
 
 .control-paragraph-content {
-    margin-top: 21px;
+    width: 340px;
     font-size: 11px;
     line-height: 19px;
     color: #FFFFFF;
@@ -171,6 +176,9 @@
 
 .control-form-container {
     margin: 0;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
 }
 
 .control-form-checkbox {
